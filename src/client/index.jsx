@@ -33,6 +33,7 @@ class User extends React.Component {
     render() {
         return (
             <div>
+                <p>{this.props.user.screen_name}</p>
                 <a href={this.props.user.url}>{this.props.user.name}</a>
             </div>
         );
